@@ -1,0 +1,19 @@
+#NÃO ALTERAR NENHUM NOME DE VARIÁVEL AQUI, SE ALTERAR MUDA NA API TODA
+
+CREATE DATABASE dnd_api;
+USE dnd_api;
+
+CREATE TABLE magias (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    school VARCHAR(100),
+    level VARCHAR(50),
+    components VARCHAR(100),
+    execution_time VARCHAR(100),
+    range_value VARCHAR(100),
+    duration VARCHAR(150),
+    resistance_test VARCHAR(100),
+    magic_resistance VARCHAR(100),
+    description TEXT,
+    img_path VARCHAR(255)
+);
