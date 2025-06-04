@@ -1,19 +1,44 @@
 #NÃO ALTERAR NENHUM NOME DE VARIÁVEL AQUI, SE ALTERAR MUDA NA API TODA
 
-CREATE DATABASE dnd_api;
 USE dnd_api;
 
 CREATE TABLE magias (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    school VARCHAR(100),
-    level VARCHAR(50),
+    magic_name VARCHAR(30) NOT NULL,
+    school VARCHAR(30),
+    magic_level VARCHAR(50),
     components VARCHAR(100),
-    execution_time VARCHAR(100),
-    range_value VARCHAR(100),
-    duration VARCHAR(150),
-    resistance_test VARCHAR(100),
-    magic_resistance VARCHAR(100),
-    description TEXT,
-    img_path VARCHAR(255)
+    execution_time VARCHAR(50),
+    magic_range VARCHAR(50),
+    duration VARCHAR(50),
+    resistance_test VARCHAR(50),
+    magic_resistance VARCHAR(50),
+    magic_description TEXT,
+    img_path VARCHAR(50)
+);
+
+INSERT INTO magias ( 
+    magic_name, 
+    school, 
+    magic_level, 
+    components, 
+    execution_time, 
+    magic_range, 
+    duration, 
+    resistance_test, 
+    magic_resistance, 
+    magic_description, 
+    img_path
+) VALUES (
+    'Drenar Força Vital',
+    'Necromancia',
+    'Clr 2, Morte 2',
+    'V, G',
+    '1 ação padrão',
+    'Toque',
+    'Instantânea/10 minutos por DV alvo (veja texto)',
+    'Vontade anula',
+    'Sim',
+    'O personagem remove o restante da força vital de uma criatura gravemente ferida e a canaliza para aumentar seu próprio poder. Ao conjurar esta magia, ele toca uma criatura viva com -1 pontos de vida (ou menos). Se o alvo fracassar em seu teste de resistência, morrerá de imediato e o conjurador receberá 1d8 pontos de vida temporários e +2 de bônus de Força. Além disso, seu nível de conjurador efetivo aumenta em +1, aprimorando os efeitos de magias que dependam do nível (este aumento do nível efetivo de conjurador não concede a magias adicionais). Esses efeitos permanecem ativos durante 10 minutos por DV do alvo.',
+    'img/necromancia.jpg'
 );
