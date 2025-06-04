@@ -6,7 +6,7 @@
         "level": "Clr 2, Morte 2",
         "components": "V, G",
         "execution_time": " 1 ação padrão",
-        "range": "Toque",
+        "range_value": "Toque",
         "duration": "Instantânea/10 minutos por DV alvo (veja texto)",
         "resistance_test": "Vontade anula",
         "magic_resistance": "Sim",
