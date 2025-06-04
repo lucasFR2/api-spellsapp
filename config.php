@@ -5,7 +5,7 @@ header("Access-Control-Allow-Origin: *");
 $host = "localhost";
 $dbname = "dnd_api";
 $username = "root";
-$password = "";
+$password = "lulukio9090";
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);

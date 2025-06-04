@@ -1,19 +1,24 @@
 <?php
-require 'config.php';
+include 'config.php';
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 
 try {
     $stmt = $pdo->prepare("SELECT 
         id, 
-        name, 
+        magic_name, 
         school, 
-        level, 
+        magic_level, 
         components, 
         execution_time, 
-        range_value AS range, 
+        magic_range, 
         duration, 
         resistance_test, 
         magic_resistance, 
-        description, 
+        magic_description, 
         img_path 
     FROM magias");
 
