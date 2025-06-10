@@ -1,16 +1,16 @@
 [
     {
         "id": 1,
-        "name": "Drenar Força Vital",
+        "magicName": "Drenar Força Vital",
         "school": "Necromancia",
-        "level": "Clr 2, Morte 2",
+        "magicLevel": "Clr 2, Morte 2",
         "components": "V, G",
-        "execution_time": " 1 ação padrão",
-        "range_value": "Toque",
+        "executionTime": " 1 ação padrão",
+        "magicRange": "Toque",
         "duration": "Instantânea/10 minutos por DV alvo (veja texto)",
-        "resistance_test": "Vontade anula",
-        "magic_resistance": "Sim",
-        "description": "O personagem remove o restante da força vital de uma criatura gravemente ferida e a canaliza para aumentar seu próprio poder. Ao conjurar esta magia, ele toca uma criatura viva com -1 pontos de vida (ou menos). Se o alvo fracassar em seu teste de resistência, morrerá de imediato e o conjurador receberá 1d8 pontos de vida temporários e +2 de bônus de Força. Além disso, seu nível de conjurador efetivo aumenta em +1, aprimorando os efeitos de magias que dependam do nível (este aumento do nível efetivo de conjurador não concede a magias adicionais). Esses efeitos permanecem ativos durante 10 minutos por DV do alvo.",
-        "img_path": "img/necromancia.jpg"
+        "resistanceTest": "Vontade anula",
+        "magicResistance": "Sim",
+        "magicDescription": "O personagem remove o restante da força vital de uma criatura gravemente ferida e a canaliza para aumentar seu próprio poder. Ao conjurar esta magia, ele toca uma criatura viva com -1 pontos de vida (ou menos). Se o alvo fracassar em seu teste de resistência, morrerá de imediato e o conjurador receberá 1d8 pontos de vida temporários e +2 de bônus de Força. Além disso, seu nível de conjurador efetivo aumenta em +1, aprimorando os efeitos de magias que dependam do nível (este aumento do nível efetivo de conjurador não concede a magias adicionais). Esses efeitos permanecem ativos durante 10 minutos por DV do alvo.",
+        "imgPath": "img/necromancia.jpg"
     }
 ]

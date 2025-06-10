@@ -4,31 +4,31 @@ USE dnd_api;
 
 CREATE TABLE magias (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    magic_name VARCHAR(30) NOT NULL,
+    magicName VARCHAR(30) NOT NULL,
     school VARCHAR(30),
-    magic_level VARCHAR(50),
+    magicLevel VARCHAR(50),
     components VARCHAR(100),
-    execution_time VARCHAR(50),
-    magic_range VARCHAR(50),
+    executionTime VARCHAR(50),
+    magicRange VARCHAR(50),
     duration VARCHAR(50),
-    resistance_test VARCHAR(50),
-    magic_resistance VARCHAR(50),
-    magic_description TEXT,
-    img_path VARCHAR(50)
+    resistanceTest VARCHAR(50),
+    magicResistance VARCHAR(50),
+    magicDescription TEXT,
+    imgPath VARCHAR(50)
 );
 
 INSERT INTO magias ( 
-    magic_name, 
+    magicName, 
     school, 
-    magic_level, 
+    magicLevel, 
     components, 
-    execution_time, 
-    magic_range, 
+    executionTime, 
+    magicRange, 
     duration, 
-    resistance_test, 
-    magic_resistance, 
-    magic_description, 
-    img_path
+    resistanceTest, 
+    magicResistance, 
+    magicDescription, 
+    imgPath
 ) VALUES (
     'Drenar Força Vital',
     'Necromancia',
