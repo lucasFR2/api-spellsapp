@@ -148,5 +148,21 @@
         "magicResistance": "Sim (objeto)",
         "magicDescription": "Faz um objeto brilhar como uma tocha, iluminando em um raio de 6 metros.",
         "imgPath": "img/luz.jpg"
-    }
+    },
+    {
+    "id": 11,
+    "magicName": "Desejo",
+    "school": "Universal",
+    "magicLevel": "Mago 9, Feiticeiro 9",
+    "components": "V, XP",
+    "executionTime": "1 ação padrão",
+    "magicRange": "Veja texto",
+    "target": "Veja texto",
+    "duration": "Veja texto",
+    "resistanceTest": "Veja texto",
+    "magicResistance": "Sim",
+    "magicDescription": "Através de suas palavras, o conjurador altera a realidade para satisfazer sua vontade. Pode duplicar magias, curar, ressuscitar, transportar, conceder bônus inerentes ou desfazer eventos recentes. Desejos maiores podem ter efeitos imprevisíveis ou literais. Magias duplicadas permitem resistência normal. Quando o desejo duplica magias com componentes materiais superiores a 10.000 PO, esses componentes devem ser fornecidos. Custo mínimo de XP: 5.000, podendo ser maior se duplicar magias com custo em XP ou criar/aprimorar itens mágicos (neste caso, paga-se o dobro + 5.000 XP).",
+    "imgPath": "img/universal.jpg"
+}
+
 ]
