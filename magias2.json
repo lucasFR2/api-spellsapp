@@ -388,7 +388,7 @@
     "resistanceTest": "Vontade anula",
     "magicResistance": "Sim",
     "magicDescription": "Transporta o conjurador e criaturas tocadas para o Plano das Sombras, permitindo movimento rápido na fronteira com o Plano Material. O conjurador pode levar várias criaturas, todas em contato físico. O personagem pode se deslocar a 75 km/h no Plano das Sombras. Quando a magia termina, o conjurador é desviado 1d10x300 metros para uma direção aleatória. Pode ser usado para viajar até outros planos conectados ao Plano das Sombras (viagem de 1d4 horas). Criaturas tocadas podem optar por seguir, explorar ou retornar ao Plano Material, realizando teste de resistência para evitar a magia.",
-    "imgPath": "img/illusion.jpg"
+    "imgPath": "img/illusion_shadow.jpg"
   },
   {
     "id": 40,
@@ -403,7 +403,7 @@
     "resistanceTest": "Nenhum ou Vontade desacredita (se interagir); veja texto",
     "magicResistance": "Não",
     "magicDescription": "Cria uma poderosa proteção contra espionagem mágica e observação direta, definindo o que pode ser observado na área. A ilusão é descrita em termos gerais, mostrando cenas que ocultam detalhes. A observação direta pode permitir teste de resistência se houver causa para descrença. Tentativas de observar detectam automaticamente a ilusão, sem testes para revelá-la.",
-    "imgPath": "img/illusion.jpg"
+    "imgPath": "img/illusion_sensation.jpg"
   },
   {
     "id": 41,
@@ -463,7 +463,7 @@
     "resistanceTest": "Vontade parcial",
     "magicResistance": "Sim",
     "magicDescription": "Faz um objeto ou local repelir um tipo específico de criatura ou aquelas com determinada tendência. Criaturas afetadas sentem compulsão para evitar a área ou objeto enquanto durar a magia. Quem passar no teste de resistência pode permanecer, mas com -4 em Destreza. Antipatia serve como contramágica para dissipar simpatia. Componente material: pedaço de alumínio mergulhado em vinagre.",
-    "imgPath": "img/enchantment.jpg"
+    "imgPath": "img/enchantment_compulsion.jpg"
   },
   {
     "id": 45,
@@ -508,7 +508,7 @@
     "resistanceTest": "Veja texto",
     "magicResistance": "Sim; veja texto",
     "magicDescription": "Absorve a força vital da criatura para uma gema, aprisionando-a indefinidamente ou até a gema ser quebrada. Pode exigir tarefas para libertação se a criatura for poderosa. Pode ser ativada via magia completa (palavra de ativação e possível teste de resistência) ou objeto armadilha (sem teste de resistência). Requer gema valiosa (1000 PO por DV da criatura).",
-    "imgPath": "img/conjuration.jpg"
+    "imgPath": "img/conjuration_invocation.jpg"
   },
   {
     "id": 48,
@@ -523,7 +523,7 @@
     "resistanceTest": "Veja texto",
     "magicResistance": "Não",
     "magicDescription": "Cobre a superfície com substância gordurosa e escorregadia. Criaturas na área precisam de teste de Reflexos para não cair, repetido a cada rodada. Criaturas podem usar teste de Equilíbrio (CD 10) para andar na área com metade do deslocamento; falhas causam queda ou impedem movimento. Pode tornar objetos escorregadios, fazendo portadores derrubar o item se falharem no teste de Reflexos a cada rodada. Componente material: couro de porco ou manteiga.",
-    "imgPath": "img/conjuration.jpg"
+    "imgPath": "img/conjuration_creation.jpg"
   },
   {
     "id": 49,
@@ -538,7 +538,7 @@
     "resistanceTest": "Nenhum",
     "magicResistance": "Não",
     "magicDescription": "Esconde uma arca no Plano Etéreo, invocável por até 60 dias. A arca pode guardar até 30 cm³ de material por nível do conjurador (tamanho físico fixo de 90x60x60 cm). Se houver criatura viva dentro, há 75% de chance da magia falhar. Requer arca e réplica (cópia perfeita da arca, custa 50 PO). Apenas um par de arcas pode existir por conjurador. Após 60 dias, 5% de chance cumulativa diária de perda irreversível. Seres vivos dentro envelhecem e precisam de recursos para sobreviver. Foco: arca e réplica.",
-    "imgPath": "img/conjuration.jpg"
+    "imgPath": "img/conjuration_invocation.jpg"
   },
   {
     "id": 50,
@@ -568,7 +568,7 @@
     "resistanceTest": "Nenhum",
     "magicResistance": "Sim",
     "magicDescription": "Cria uma arma de energia que ataca à distância seguindo comandos do conjurador, causando 1d8 de dano de energia por golpe +1 a cada 3 níveis (máx +5). Assume forma simbólica da divindade do conjurador. Usa bônus base de ataque + mod. Sabedoria para ataques, realiza ataques múltiplos conforme base de ataque. Ataca criaturas incorpóreas. Se ultrapassar alcance ou perder comando, retorna ao lado do conjurador. Pode ser redirecionada com ação padrão a cada rodada. Não pode ser atacada fisicamente, mas pode ser dissipada. CA 12 contra toque.",
-    "imgPath": "img/evocation.jpg"
+    "imgPath": "img/evocation_energy.jpg"
   },
   {
     "id": 52,
@@ -612,9 +612,8 @@
     "duration": "1 rodada/nível",
     "resistanceTest": "Vontade anula (inofensiva, objeto) (veja texto)",
     "magicResistance": "Sim (inofensiva, objeto)",
-    "magicDescription": "A arma branca torna-se letal contra mortos-vivos. Mortos-vivos com DV igual ou inferior ao nível do conjurador devem fazer teste de resistência de Vontade ou serão destruídos ao serem atingidos pela arma. RM não se aplica à destruição.",
-    "imgPath": "img/transmutation.jpg"
-},
+    "magicDescription": "A arma branca torna-se letal contra mortos-vivos. Mortos-vivos com DV igual ou inferior ao nível do conjurador devem fazer teste de resistência de Vontade ou serão destruídos ao serem atingidos pela arma. RM não se aplica à destruição."
+  },
   {
     "id": 55,
     "magicName": "Armadilha",
@@ -627,9 +626,8 @@
     "duration": "Até ser disparada ou destruída",
     "resistanceTest": "Nenhum",
     "magicResistance": "Não",
-    "magicDescription": "Cria uma armadilha mágica que se incorpora aos arredores (CD 23 para detectar). Ponta do laço prende membros da criatura que pisar, podendo causar 1d6 de dano se árvore flexível estiver próxima, erguendo a criatura. A armadilha tem CA 7, 5 PV. Escapar requer teste de Arte da Fuga ou Força CD 23 (ação de rodada completa). Escapar dissipa a magia.",
-    "imgPath": "img/transmutation.jpg"
-},
+    "magicDescription": "Cria uma armadilha mágica que se incorpora aos arredores (CD 23 para detectar). Ponta do laço prende membros da criatura que pisar, podendo causar 1d6 de dano se árvore flexível estiver próxima, erguendo a criatura. A armadilha tem CA 7, 5 PV. Escapar requer teste de Arte da Fuga ou Força CD 23 (ação de rodada completa). Escapar dissipa a magia."
+  },
   {
     "id": 56,
     "magicName": "Armadilha de Fogo",
@@ -643,12 +641,12 @@
     "resistanceTest": "Reflexos para reduzir à metade",
     "magicResistance": "Sim",
     "magicDescription": "Protege objetos com mecanismo de abertura com explosão de fogo (1,5m raio) ao serem abertos indevidamente. Dano 1d4 +1 por nível (máx +20). Sob água, dano é metade e cria vapor. Dissipar magia pode não disparar armadilha. Componentes materiais: 250g de pó de ouro (25 PO).",
-    "imgPath": "img/abjuration.jpg"
+    "notes": "Só uma armadilha por objeto, CD 27 para ladinos detectarem/desarmarem."
   },
   {
     "id": 57,
     "magicName": "Armadilha de Leomund",
-    "school": "Ilusão ",
+    "school": "Ilusão (Sensação)",
     "magicLevel": "Fet/Mag 2",
     "components": "V, G, M",
     "executionTime": "1 ação padrão",
@@ -657,8 +655,7 @@
     "duration": "Permanente (D)",
     "resistanceTest": "Nenhum",
     "magicResistance": "Não",
-    "magicDescription": "Faz um mecanismo parecer uma armadilha real para qualquer criatura que tente detectá-la. Ilusão para assustar ladrões, não causa dano. Magia falha se houver outra armadilha de Leomund a menos de 15m. Componentes materiais: pirita no local + pó especial (50 PO).",
-    "imgPath": "img/illusion.jpg"
+    "magicDescription": "Faz um mecanismo parecer uma armadilha real para qualquer criatura que tente detectá-la. Ilusão para assustar ladrões, não causa dano. Magia falha se houver outra armadilha de Leomund a menos de 15m. Componentes materiais: pirita no local + pó especial (50 PO)."
   },
   {
     "id": 58,
@@ -672,8 +669,8 @@
     "duration": "1 hora/nível (D)",
     "resistanceTest": "Vontade anula (inofensiva)",
     "magicResistance": "Não",
-    "magicDescription": "Campo de força invisível que concede +4 de bônus de armadura à CA. Não possui penalidades ou redução de deslocamento. Incorpóreos não atravessam a armadura arcana. Foco: pedaço de couro endurecido.",
-    "imgPath": "img/conjuration.jpg"},
+    "magicDescription": "Campo de força invisível que concede +4 de bônus de armadura à CA. Não possui penalidades ou redução de deslocamento. Incorpóreos não atravessam a armadura arcana. Foco: pedaço de couro endurecido."
+  },
   {
     "id": 59,
     "magicName": "Arrombar",
@@ -686,13 +683,12 @@
     "duration": "Instantânea; veja texto",
     "resistanceTest": "Nenhum",
     "magicResistance": "Não",
-    "magicDescription": "Abre portas e baús trancados, emperrados ou protegidos por tranca arcana (suspende efeito por 10 minutos). Não remove trancas arcana definitivamente. Não afeta cordas, cipós, portões ou obstáculos. Pode remover até dois dispositivos por conjuração.",
-    "imgPath": "img/transmutation.jpg"
+    "magicDescription": "Abre portas e baús trancados, emperrados ou protegidos por tranca arcana (suspende efeito por 10 minutos). Não remove trancas arcana definitivamente. Não afeta cordas, cipós, portões ou obstáculos. Pode remover até dois dispositivos por conjuração."
   },
   {
     "id": 60,
     "magicName": "Assassino Fantasmagórico",
-    "school": "Ilusão  [Medo, Ação Mental]",
+    "school": "Ilusão (Fantasma) [Medo, Ação Mental]",
     "magicLevel": "Fet/Mag 4",
     "components": "V, G",
     "executionTime": "1 ação padrão",
@@ -701,10 +697,8 @@
     "duration": "Instantânea",
     "resistanceTest": "Vontade desacredita (se interagir), Fortitude parcial; veja texto",
     "magicResistance": "Sim",
-    "magicDescription": "Cria imagem fantasmagórica do maior medo do alvo, visível apenas para ele. Falha em resistir à Vontade resulta em teste de Fortitude para evitar morte por medo, com 3d6 de dano mesmo se resistir. Se alvo for bem sucedido e usar elmo da telepatia, a besta pode virar contra o conjurador.",
-    "imgPath": "img/illusion.jpg"
-
-},
+    "magicDescription": "Cria imagem fantasmagórica do maior medo do alvo, visível apenas para ele. Falha em resistir à Vontade resulta em teste de Fortitude para evitar morte por medo, com 3d6 de dano mesmo se resistir. Se alvo for bem sucedido e usar elmo da telepatia, a besta pode virar contra o conjurador."
+  },
   {
     "id": 61,
     "magicName": "Astúcia da Raposa",
@@ -718,7 +712,7 @@
     "resistanceTest": "Vontade anula (inofensiva)",
     "magicResistance": "Sim (inofensiva)",
     "magicDescription": "Concede +4 de aprimoramento em Inteligência, melhorando perícias baseadas em Inteligência e CDs de magias conjuradas. Não concede magias adicionais nem pontos de perícia extras.",
-    "imgPath": "img/transmutation.jpg"
+    "componentsMaterialArcane": "Estrume ou pelo de raposa."
   },
   {
     "id": 62,
@@ -732,8 +726,7 @@
     "duration": "",
     "resistanceTest": "",
     "magicResistance": "",
-    "magicDescription": "Funciona como astúcia da raposa, mas afeta múltiplas criaturas.",
-    "imgPath": "img/transmutation.jpg"
+    "magicDescription": "Funciona como astúcia da raposa, mas afeta múltiplas criaturas."
   },
   {
     "id": 63,
@@ -747,8 +740,7 @@
     "duration": "Veja texto",
     "resistanceTest": "",
     "magicResistance": "",
-    "magicDescription": "Próximo ataque recebe +20 de bônus de intuição e não sofre falha por camuflagem. Foco: réplica pequena de alvo para arqueiros.",
-    "imgPath": "img/divination.jpg"
+    "magicDescription": "Próximo ataque recebe +20 de bônus de intuição e não sofre falha por camuflagem. Foco: réplica pequena de alvo para arqueiros."
   },
   {
     "id": 64,
@@ -762,8 +754,7 @@
     "duration": "1 rodada/três níveis (veja texto)",
     "resistanceTest": "Fortitude anula",
     "magicResistance": "Sim",
-    "magicDescription": "Afeta uma criatura viva por rodada com ataque visual que causa efeitos cumulativos baseados nos DV: \n- 1+ DV: Enjoada\n- 5-9 DV: Apavorada e enjoada\n- 4 ou menos DV: Letárgica, apavorada e enjoada.\nEnjoada causa penalidades; Apavorada causa medo; Letárgica causa coma catatônico. Duração e detalhes descritos no texto.",
-    "imgPath": "img/necromancy.jpg"
+    "magicDescription": "Afeta uma criatura viva por rodada com ataque visual que causa efeitos cumulativos baseados nos DV: \n- 1+ DV: Enjoada\n- 5-9 DV: Apavorada e enjoada\n- 4 ou menos DV: Letárgica, apavorada e enjoada.\nEnjoada causa penalidades; Apavorada causa medo; Letárgica causa coma catatônico. Duração e detalhes descritos no texto."
   },
   {
     "id": 65,
@@ -777,8 +768,7 @@
     "duration": "1 rodada/nível ou 1 rodada, veja o texto de causar medo",
     "resistanceTest": "Vontade parcial",
     "magicResistance": "Sim",
-    "magicDescription": "Funciona como causar medo, mas afeta todas as criaturas com menos de 6 DV. Componente material: pedaço de osso de morto-vivo.",
-    "imgPath": "img/necromancy.jpg"
+    "magicDescription": "Funciona como causar medo, mas afeta todas as criaturas com menos de 6 DV. Componente material: pedaço de osso de morto-vivo."
   },
   {
     "id": 66,
@@ -792,8 +782,7 @@
     "duration": "Instantânea",
     "resistanceTest": "",
     "magicResistance": "",
-    "magicDescription": "Prevê se uma ação trará resultados bons ou ruins no futuro imediato (cerca de 30 minutos). Chance de resposta 70% +1%/nível (máx 90%). Respostas: êxito, fracasso, êxito e fracasso, ou nada. Componente material: incenso 25 PO. Foco: conjunto de varetas ou ossos 25 PO.",
-    "imgPath": "img/divination.jpg"
+    "magicDescription": "Prevê se uma ação trará resultados bons ou ruins no futuro imediato (cerca de 30 minutos). Chance de resposta 70% +1%/nível (máx 90%). Respostas: êxito, fracasso, êxito e fracasso, ou nada. Componente material: incenso 25 PO. Foco: conjunto de varetas ou ossos 25 PO."
   },
   {
     "id": 67,
@@ -807,8 +796,7 @@
     "duration": "1 minuto/nível (D)",
     "resistanceTest": "Fortitude anula",
     "magicResistance": "Sim",
-    "magicDescription": "Dobra a altura e multiplica peso por 8, aumentando tamanho em uma categoria. +2 Força, -2 Destreza, -1 ataque e CA. Equipamento também cresce proporcionalmente. Não altera deslocamento. Não permite esmagar com crescimento. Pode ser permanente via magia permanência. Componente material: ferro.",
-    "imgPath": "img/transmutation.jpg"
+    "magicDescription": "Dobra a altura e multiplica peso por 8, aumentando tamanho em uma categoria. +2 Força, -2 Destreza, -1 ataque e CA. Equipamento também cresce proporcionalmente. Não altera deslocamento. Não permite esmagar com crescimento. Pode ser permanente via magia permanência. Componente material: ferro."
   },
   {
     "id": 68,
@@ -822,13 +810,12 @@
     "duration": "",
     "resistanceTest": "",
     "magicResistance": "",
-    "magicDescription": "Como aumentar pessoa, mas afeta múltiplos humanóides.",
-    "imgPath": "img/transmutation.jpg"
+    "magicDescription": "Como aumentar pessoa, mas afeta múltiplos humanóides."
   },
   {
     "id": 69,
     "magicName": "Aura Mágica de Nystul",
-    "school": "Ilusão ",
+    "school": "Ilusão (Sensação)",
     "magicLevel": "Brd 1, Magia 1, Fet/Mag 1",
     "components": "V, G, F",
     "executionTime": "1 ação padrão",
@@ -837,8 +824,7 @@
     "duration": "Um dia/nível (D)",
     "resistanceTest": "Nenhum; veja texto",
     "magicResistance": "Não",
-    "magicDescription": "Altera a aura mágica de um objeto, mascarando-o contra magias detectar como item mundano, mágico diferente, ou outro efeito. Identificação pode revelar a falsidade com sucesso em teste de Vontade. Não funciona contra artefatos poderosos. Foco: pedaço pequeno de seda passado sobre o objeto.",
-    "imgPath": "img/illusion.jpg"
+    "magicDescription": "Altera a aura mágica de um objeto, mascarando-o contra magias detectar como item mundano, mágico diferente, ou outro efeito. Identificação pode revelar a falsidade com sucesso em teste de Vontade. Não funciona contra artefatos poderosos. Foco: pedaço pequeno de seda passado sobre o objeto."
   },
   {
     "id": 70,
@@ -852,9 +838,8 @@
     "duration": "1 rodada/nível (D)",
     "resistanceTest": "Veja texto",
     "magicResistance": "Sim (inofensiva)",
-    "magicDescription": "Uma escuridão malévola envolve os alvos, protegendo-os de ataques e conferindo resistência a magias de criaturas bondosas, enfraquecendo criaturas bondosas que os atacam.\nEfeitos:\n1) +4 de bônus de deflexão na CA e +4 em testes de resistência para as criaturas protegidas.\n2) Resistência à Magia 25 contra magias com descritor [Bem] ou conjuradas por criaturas Boas.\n3) Bloqueia possessão e influências mentais como proteção contra o bem.\n4) Caso criatura bondosa ataque em combate corpo a corpo, atacante sofre 1d6 de dano temporário de Força (Fortitude anula).\nFoco: pequeno relicário com relíquia sagrada (mínimo 500 PO).",
-    "imgPath": "img/abjuration.jpg"
-},
+    "magicDescription": "Uma escuridão malévola envolve os alvos, protegendo-os de ataques e conferindo resistência a magias de criaturas bondosas, enfraquecendo criaturas bondosas que os atacam.\nEfeitos:\n1) +4 de bônus de deflexão na CA e +4 em testes de resistência para as criaturas protegidas.\n2) Resistência à Magia 25 contra magias com descritor [Bem] ou conjuradas por criaturas Boas.\n3) Bloqueia possessão e influências mentais como proteção contra o bem.\n4) Caso criatura bondosa ataque em combate corpo a corpo, atacante sofre 1d6 de dano temporário de Força (Fortitude anula).\nFoco: pequeno relicário com relíquia sagrada (mínimo 500 PO)."
+  },
   {
     "id": 71,
     "magicName": "Aura Sagrada",
@@ -867,10 +852,8 @@
     "duration": "1 rodada/nível (D)",
     "resistanceTest": "Veja texto",
     "magicResistance": "Sim (inofensiva)",
-    "magicDescription": "Aura brilhante divina protege alvos, conferindo resistência a magias malignas e cegando criaturas malignas que os atacarem.\nEfeitos:\n1) +4 de bônus de deflexão na CA e +4 em testes de resistência.\n2) Resistência à Magia 25 contra magias [Mal] ou de criaturas Más.\n3) Bloqueia possessão e influências mentais igual proteção contra o mal.\n4) Ataque corpo a corpo de criatura maligna causa cegueira ao atacante (Fortitude anula).\nFoco: pequeno relicário com relíquia sagrada (mínimo 500 PO).",
-    "imgPath": "img/abjuration.jpg"
-    
-},
+    "magicDescription": "Aura brilhante divina protege alvos, conferindo resistência a magias malignas e cegando criaturas malignas que os atacarem.\nEfeitos:\n1) +4 de bônus de deflexão na CA e +4 em testes de resistência.\n2) Resistência à Magia 25 contra magias [Mal] ou de criaturas Más.\n3) Bloqueia possessão e influências mentais igual proteção contra o mal.\n4) Ataque corpo a corpo de criatura maligna causa cegueira ao atacante (Fortitude anula).\nFoco: pequeno relicário com relíquia sagrada (mínimo 500 PO)."
+  },
   {
     "id": 72,
     "magicName": "Auxílio Divino",
@@ -883,8 +866,7 @@
     "duration": "1 minuto",
     "resistanceTest": "",
     "magicResistance": "",
-    "magicDescription": "Recebe +1 de bônus de sorte para ataques e dano a cada 3 níveis de conjurador (mínimo +1, máximo +6). Não se aplica a dano de magias.",
-    "imgPath": "img/evocation.jpg"
+    "magicDescription": "Recebe +1 de bônus de sorte para ataques e dano a cada 3 níveis de conjurador (mínimo +1, máximo +6). Não se aplica a dano de magias."
   },
   {
     "id": 73,
@@ -898,10 +880,8 @@
     "duration": "Instantânea",
     "resistanceTest": "Vontade anula",
     "magicResistance": "Sim",
-    "magicDescription": "Versão poderosa de expulsão. Expulsa até 2 DV de criaturas extra-planares por nível de conjurador para seu plano natal. Precisa empunhar substância/objeto odiado pelo alvo para bônus em testes de conjurador e na CD da magia. Itens raros podem dar bônus dobrado.",
-    "imgPath": "img/abjuration.jpg"
-    
-},
+    "magicDescription": "Versão poderosa de expulsão. Expulsa até 2 DV de criaturas extra-planares por nível de conjurador para seu plano natal. Precisa empunhar substância/objeto odiado pelo alvo para bônus em testes de conjurador e na CD da magia. Itens raros podem dar bônus dobrado."
+  },
   {
     "id": 74,
     "magicName": "Banquete de Heróis",
@@ -914,8 +894,7 @@
     "duration": "1 hora mais 12 horas; veja texto",
     "resistanceTest": "Nenhum",
     "magicResistance": "Não",
-    "magicDescription": "Cria banquete magnífico com efeitos benéficos após 1 hora consumida:\n- Cura doenças, enjôo e náusea.\n- Imunidade a veneno por 12 horas.\n- Ganha 1d8 pontos de vida temporários +1 a cada 2 níveis (máx +10).\n- +1 de bônus de moral em ataque e testes de resistência de Vontade.\n- Imunidade a medo por 12 horas.\nInterrupção dissipa efeitos.",
-    "imgPath": "img/conjuration.jpg"
+    "magicDescription": "Cria banquete magnífico com efeitos benéficos após 1 hora consumida:\n- Cura doenças, enjôo e náusea.\n- Imunidade a veneno por 12 horas.\n- Ganha 1d8 pontos de vida temporários +1 a cada 2 níveis (máx +10).\n- +1 de bônus de moral em ataque e testes de resistência de Vontade.\n- Imunidade a medo por 12 horas.\nInterrupção dissipa efeitos."
   },
   {
     "id": 75,
@@ -929,8 +908,7 @@
     "duration": "1 minuto/nível (D)",
     "resistanceTest": "Reflexos para reduzir dano ou evitar",
     "magicResistance": "Sim",
-    "magicDescription": "Cria parede/muralha de lâminas que causa 1d6 dano por nível (máx 15d6) a quem tentar ultrapassar. Criaturas dentro da área ao conjurar também sofrem dano, podendo evitar com teste de Reflexos. Fornece cobertura (+4 CA, +2 testes Reflexos).",
-    "imgPath": "img/evocation.jpg"
+    "magicDescription": "Cria parede/muralha de lâminas que causa 1d6 dano por nível (máx 15d6) a quem tentar ultrapassar. Criaturas dentro da área ao conjurar também sofrem dano, podendo evitar com teste de Reflexos. Fornece cobertura (+4 CA, +2 testes Reflexos)."
   },
   {
     "id": 76,
@@ -944,8 +922,7 @@
     "duration": "1 minuto/nível",
     "resistanceTest": "Nenhum",
     "magicResistance": "Sim (inofensiva)",
-    "magicDescription": "Aumenta a coragem dos aliados, concedendo +1 de bônus de moral em ataques e testes de resistência contra medo. Serve de contramágica e dissipa maldição menor.",
-    "imgPath": "img/enchantment.jpg"
+    "magicDescription": "Aumenta a coragem dos aliados, concedendo +1 de bônus de moral em ataques e testes de resistência contra medo. Serve de contramágica e dissipa maldição menor."
   },
   {
     "id": 77,
@@ -959,10 +936,8 @@
     "duration": "Instantânea",
     "resistanceTest": "Nenhum ou Vontade anula (veja texto)",
     "magicResistance": "Sim",
-    "magicDescription": "Afeta criaturas não malignas com efeitos cumulativos baseados em DV:\n- (nível do conjurador -1) DV: Enfraquecida, pasma\n- (nível do conjurador -5) DV: Paralisada, enfraquecida, pasma\n- (nível do conjurador -10) DV: Morta, paralisada, enfraquecida, pasma\nPasma: sem ação 1 rodada.\nEnfraquecida: Força reduzida 2d6 por 2d4 rodadas.\nParalisada: indefesa por 1d10 minutos.\nMorta: morta (vivos) ou destruída (mortos-vivos).\nCriaturas extra-planares não malignas banidas se no plano natal do conjurador (teste de Vontade com -4 para evitar). Criaturas com DV maior que nível do conjurador não são afetadas.",
-    "imgPath": "img/evocation.jpg"
-},
-   {
+    "magicDescription": "Afeta criaturas não malignas com efeitos cumulativos baseados em DV:\n- (nível do conjurador -1) DV: Enfraquecida, pasma\n- (nível do conjurador -5) DV: Paralisada, enfraquecida, pasma\n- (nível do conjurador -10) DV: Morta, paralisada, enfraquecida, pasma\nPasma: sem ação 1 rodada.\nEnfraquecida: Força reduzida 2d6 por 2d4 rodadas.\nParalisada: indefesa por 1d10 minutos.\nMorta: morta (vivos) ou destruída (mortos-vivos).\nCriaturas extra-planares não malignas banidas se no plano natal do conjurador (teste de Vontade com -4 para evitar). Criaturas com DV maior que nível do conjurador não são afetadas."
+  }, {
     "id": 78,
     "magicName": "Boa Esperança",
     "school": "Encantamento (Compulsão) [Ação Mental]",
@@ -974,13 +949,12 @@
     "duration": "1 minuto/nível",
     "resistanceTest": "Vontade anula (inofensiva)",
     "magicResistance": "Sim (inofensiva)",
-    "magicDescription": "Infunde esperança poderosa nos alvos, concedendo +2 de bônus de moral em testes de resistência, jogadas de ataque e dano, e testes de habilidade e perícia. Serve como contramágica e dissipa desespero esmagador.",
-    "imgPath": "img/enchantment.jpg"
-},
+    "magicDescription": "Infunde esperança poderosa nos alvos, concedendo +2 de bônus de moral em testes de resistência, jogadas de ataque e dano, e testes de habilidade e perícia. Serve como contramágica e dissipa desespero esmagador."
+  },
   {
     "id": 79,
     "magicName": "Boca Encantada",
-    "school": "Ilusão",
+    "school": "Ilusão (Sensação)",
     "magicLevel": "Fet/Mag 2",
     "components": "V, G, M",
     "executionTime": "1 ação padrão",
@@ -989,8 +963,7 @@
     "duration": "Permanente até ser dissipada",
     "resistanceTest": "Vontade anula (objeto)",
     "magicResistance": "Sim (objeto)",
-    "magicDescription": "Cria uma boca encantada que pronuncia uma mensagem (até 25 palavras) ao ocorrer determinado gatilho (auditivo ou visual). A boca pode estar em criaturas ou objetos e reage somente a gatilhos dentro do alcance e linha de visão. Pode se tornar permanente com a magia Permanência. Componentes materiais: punhado de favos de mel e jade de 10 PO.",  
-    "imgPath": "img/illusion.jpg"  
+    "magicDescription": "Cria uma boca encantada que pronuncia uma mensagem (até 25 palavras) ao ocorrer determinado gatilho (auditivo ou visual). A boca pode estar em criaturas ou objetos e reage somente a gatilhos dentro do alcance e linha de visão. Pode se tornar permanente com a magia Permanência. Componentes materiais: punhado de favos de mel e jade de 10 PO."
   },
   {
     "id": 80,
@@ -1004,8 +977,7 @@
     "duration": "Instantânea",
     "resistanceTest": "Reflexos para reduzir à metade",
     "magicResistance": "Sim",
-    "magicDescription": "Explosão de fogo que causa 1d6 de dano por nível de conjurador (máx 10d6) a criaturas e objetos não carregados na área. Pode incendiar materiais combustíveis e derreter metais de baixo ponto de fusão. Detona ao colidir com objetos ou barreiras, podendo ser detonada antecipadamente em passagens estreitas. Componentes materiais: pequena bola de guano e enxofre.",
-    "imgPath": "img/evocation.jpg"
+    "magicDescription": "Explosão de fogo que causa 1d6 de dano por nível de conjurador (máx 10d6) a criaturas e objetos não carregados na área. Pode incendiar materiais combustíveis e derreter metais de baixo ponto de fusão. Detona ao colidir com objetos ou barreiras, podendo ser detonada antecipadamente em passagens estreitas. Componentes materiais: pequena bola de guano e enxofre."
   },
   {
     "id": 81,
@@ -1019,8 +991,7 @@
     "duration": "Até 5 rodadas",
     "resistanceTest": "Reflexos para reduzir à metade",
     "magicResistance": "Sim",
-    "magicDescription": "Semelhante à Bola de Fogo, porém pode ser detonada imediatamente ou adiada até 5 rodadas. Pedra brilhante permanece no local até detonar. Pode ser arremessada como arma, com chance de detonar durante o arremesso.",
-    "imgPath": "img/evocation.jpg"
+    "magicDescription": "Semelhante à Bola de Fogo, porém pode ser detonada imediatamente ou adiada até 5 rodadas. Pedra brilhante permanece no local até detonar. Pode ser arremessada como arma, com chance de detonar durante o arremesso."
   },
   {
     "id": 82,
@@ -1034,8 +1005,7 @@
     "duration": "Um dia/nível",
     "resistanceTest": "Nenhum",
     "magicResistance": "Sim",
-    "magicDescription": "Transforma frutos em itens mágicos que alimentam como refeição normal e recuperam 1 ponto de dano quando ingeridos. Uma criatura não pode recuperar mais de 8 pontos de vida por 24 horas com frutos afetados.",
-    "imgPath": "img/transmutation.jpg"
+    "magicDescription": "Transforma frutos em itens mágicos que alimentam como refeição normal e recuperam 1 ponto de dano quando ingeridos. Uma criatura não pode recuperar mais de 8 pontos de vida por 24 horas com frutos afetados."
   },
   {
     "id": 83,
@@ -1049,8 +1019,7 @@
     "duration": "Permanente até ser descarregado (D)",
     "resistanceTest": "Vontade anula (objeto)",
     "magicResistance": "Sim (objeto)",
-    "magicDescription": "Armazena uma magia conjurável em um bordão de madeira. Apenas uma magia por bordão, não consumindo limite diário do druida para conjurar a magia armazenada. É necessário fornecer componentes materiais ao armazenar.",
-    "imgPath": "img/transmutation.jpg"
+    "magicDescription": "Armazena uma magia conjurável em um bordão de madeira. Apenas uma magia por bordão, não consumindo limite diário do druida para conjurar a magia armazenada. É necessário fornecer componentes materiais ao armazenar."
   },
   {
     "id": 84,
@@ -1064,8 +1033,7 @@
     "duration": "Instantânea",
     "resistanceTest": "Fortitude anula",
     "magicResistance": "Sim",
-    "magicDescription": "Cria explosão de luz brilhante que ofusca uma criatura por 1 minuto, salvo teste de Fortitude. Criaturas sem visão ou já ofuscadas não são afetadas.",
-    "imgPath": "img/evocation.jpg"
+    "magicDescription": "Cria explosão de luz brilhante que ofusca uma criatura por 1 minuto, salvo teste de Fortitude. Criaturas sem visão ou já ofuscadas não são afetadas."
   },{
     "id": 85,
     "magicName": "Cajado Vivo",
@@ -1078,8 +1046,7 @@
     "duration": "1 hora/nível (D)",
     "resistanceTest": "Nenhum",
     "magicResistance": "Não",
-    "magicDescription": "O druida transforma um cajado especialmente preparado em uma criatura Enorme similar a um ente, com cerca de 7,2 m de altura. Ao colocar a ponta no chão e pronunciar uma palavra especial, o cajado se transforma em um ente que defende e obedece comandos falados. Não é um ente verdadeiro, não pode conversar ou controlar árvores. Se reduzido a 0 PV ou menos, se transforma em pó e é destruído, caso contrário pode ser usado como foco para conjurar a magia novamente. Sempre está em perfeito estado quando criado. Foco: O cajado deve ser preparado por 28 dias, sendo um galho sólido de carvalho, freixo ou teixo, curtido, moldado e polido.",
-    "imgPath": "img/transmutation.jpg"
+    "magicDescription": "O druida transforma um cajado especialmente preparado em uma criatura Enorme similar a um ente, com cerca de 7,2 m de altura. Ao colocar a ponta no chão e pronunciar uma palavra especial, o cajado se transforma em um ente que defende e obedece comandos falados. Não é um ente verdadeiro, não pode conversar ou controlar árvores. Se reduzido a 0 PV ou menos, se transforma em pó e é destruído, caso contrário pode ser usado como foco para conjurar a magia novamente. Sempre está em perfeito estado quando criado. Foco: O cajado deve ser preparado por 28 dias, sendo um galho sólido de carvalho, freixo ou teixo, curtido, moldado e polido."
   },
   {
     "id": 86,
@@ -1093,8 +1060,7 @@
     "duration": "10 minutos/nível (D)",
     "resistanceTest": "Vontade anula (inofensiva)",
     "magicResistance": "Sim (inofensiva)",
-    "magicDescription": "As criaturas transmutadas podem caminhar sobre qualquer líquido como se fosse terra firme, incluindo lama, óleo, neve, areia movediça, água corrente, gelo e lava (que causa dano devido ao calor). Podem andar, correr, fazer investidas e se deslocar normalmente sobre estas superfícies. Se conjurada sob água ou com alvos submersos, eles sobem para a superfície com deslocamento de 18 m por rodada até poderem ficar de pé sobre ela.",
-    "imgPath": "img/transmutation.jpg"
+    "magicDescription": "As criaturas transmutadas podem caminhar sobre qualquer líquido como se fosse terra firme, incluindo lama, óleo, neve, areia movediça, água corrente, gelo e lava (que causa dano devido ao calor). Podem andar, correr, fazer investidas e se deslocar normalmente sobre estas superfícies. Se conjurada sob água ou com alvos submersos, eles sobem para a superfície com deslocamento de 18 m por rodada até poderem ficar de pé sobre ela."
   },
   {
     "id": 87,
@@ -1108,8 +1074,7 @@
     "duration": "1 hora/nível ou até ser gasta",
     "resistanceTest": "",
     "magicResistance": "",
-    "magicDescription": "O personagem pode entrar em árvores e se deslocar entre elas. As árvores devem ser da mesma espécie, vivas e com diâmetro igual ou maior que a cintura do conjurador. Ao entrar em uma árvore, conhece a localização de todas as outras daquela espécie no alcance da magia e pode sair em qualquer uma delas. Distância máxima de transporte varia por tipo de árvore (carvalho, freixo, teixo: 900 m; olmo, tília: 600 m; coníferas: 300 m; outras: 150 m). Pode se mover entre árvores uma vez por nível. A magia dura até o final da duração ou até que o conjurador saia da árvore. metros (9 quilômetros). Cada transporte utiliza uma ação de rodada completa. Se preferir, ele pode ficar no interior de uma árvore  sem se deslocar, mas será expelido quando a duração da magia terminar. Se a árvore onde estiver escondido for derrubada ou queimada, o personagem morrerá se não sair antes do processo ser concluído.",
-    "imgPath": "img/conjuration.jpg"
+    "magicDescription": "O personagem pode entrar em árvores e se deslocar entre elas. As árvores devem ser da mesma espécie, vivas e com diâmetro igual ou maior que a cintura do conjurador. Ao entrar em uma árvore, conhece a localização de todas as outras daquela espécie no alcance da magia e pode sair em qualquer uma delas. Distância máxima de transporte varia por tipo de árvore (carvalho, freixo, teixo: 900 m; olmo, tília: 600 m; coníferas: 300 m; outras: 150 m). Pode se mover entre árvores uma vez por nível. A magia dura até o final da duração ou até que o conjurador saia da árvore. metros (9 quilômetros). Cada transporte utiliza uma ação de rodada completa. Se preferir, ele pode ficar no interior de uma árvore  sem se deslocar, mas será expelido quando a duração da magia terminar. Se a árvore onde estiver escondido for derrubada ou queimada, o personagem morrerá se não sair antes do processo ser concluído."
   },
   {
     "id": 88,
@@ -1123,8 +1088,7 @@
     "duration": "1 hora/nível (D); veja texto",
     "resistanceTest": "Nenhum e Vontade anula (inofensiva)",
     "magicResistance": "Não e Sim (inofensiva)",
-    "magicDescription": "O personagem transforma seu corpo em vapor para voar pelo ar, podendo carregar criaturas que agem independentemente. Deslocamento normal de 3 m com capacidade perfeita; pode ser impulsionado por vento mágico até 180 m/rodada (90 km/h) com manobra ruim. Aparência translúcida, podendo ser confundido com névoa. Pode retornar à forma física em 5 rodadas, que descontam da duração. Na última minuto, desce automaticamente a 18 m por rodada como aviso do término da magia.",
-    "imgPath": "img/abjuration.jpg"
+    "magicDescription": "O personagem transforma seu corpo em vapor para voar pelo ar, podendo carregar criaturas que agem independentemente. Deslocamento normal de 3 m com capacidade perfeita; pode ser impulsionado por vento mágico até 180 m/rodada (90 km/h) com manobra ruim. Aparência translúcida, podendo ser confundido com névoa. Pode retornar à forma física em 5 rodadas, que descontam da duração. Na última minuto, desce automaticamente a 18 m por rodada como aviso do término da magia."
   },
   {
     "id": 89,
@@ -1138,8 +1102,7 @@
     "duration": "10 minutos/nível (D)",
     "resistanceTest": "Nenhum",
     "magicResistance": "Veja texto",
-    "magicDescription": "Barreira invisível que impede a passagem da maioria dos efeitos mágicos e funcionamento de itens mágicos. Neutraliza magias usadas dentro dela, mas não as dissipa. Criaturas invocadas desaparecem ao entrar; criaturas normais e projéteis comuns não são afetados. Algumas magias e artefatos não são afetados. Componentes: um pouco de ferro em pó ou pedaços de ferro.", 
-    "imgPath": "img/abjuration.jpg"
+    "magicDescription": "Barreira invisível que impede a passagem da maioria dos efeitos mágicos e funcionamento de itens mágicos. Neutraliza magias usadas dentro dela, mas não as dissipa. Criaturas invocadas desaparecem ao entrar; criaturas normais e projéteis comuns não são afetados. Algumas magias e artefatos não são afetados. Componentes: um pouco de ferro em pó ou pedaços de ferro."
   },
   {
     "id": 90,
@@ -1153,8 +1116,7 @@
     "duration": "1 rodada/nível",
     "resistanceTest": "Vontade anula",
     "magicResistance": "Sim",
-    "magicDescription": "Força criaturas na área a atacar o alvo mais próximo com 50% de chance por rodada, utilizando táticas e magias letais, exceto alvos inconscientes. O comportamento é decidido no começo do turno de cada criatura.",
-    "imgPath": "img/enchantment.jpg"
+    "magicDescription": "Força criaturas na área a atacar o alvo mais próximo com 50% de chance por rodada, utilizando táticas e magias letais, exceto alvos inconscientes. O comportamento é decidido no começo do turno de cada criatura."
   },
   {
     "id": 91,
@@ -1168,8 +1130,7 @@
     "duration": "Concentração + 1 rodada/nível (D)",
     "resistanceTest": "Vontade anula",
     "magicResistance": "Sim",
-    "magicDescription": "As criaturas afetadas sofrem -5 nos testes de Ouvir e -2 nos testes de resistência contra sono enquanto a magia estiver ativa. Duração se estende enquanto o conjurador se concentrar.",   
-    "imgPath": "img/enchantment.jpg"
+    "magicDescription": "As criaturas afetadas sofrem -5 nos testes de Ouvir e -2 nos testes de resistência contra sono enquanto a magia estiver ativa. Duração se estende enquanto o conjurador se concentrar."
   },
    {
     "id": 92,
@@ -1183,8 +1144,7 @@
     "duration": "Instantânea",
     "savingThrow": "Fortitude anula",
     "spellResistance": "Sim",
-    "description": "O alvo e todo seu equipamento se transformam em uma estátua inerte e sem consciência. Se a estátua resultante desta magia for quebrada ou danificada, a criatura (se voltar a seu estado original) sofrerá o dano e deformidades equivalentes. A criatura não está morta, mas também não parece viva quando é observada por magias como visão da morte. Somente as criaturas feitas de carne podem ser afetadas por esta magia.\nComponentes Materiais: Limo, água e pedra.",
-    "imgPath": "img/transmutation.jpg"
+    "description": "O alvo e todo seu equipamento se transformam em uma estátua inerte e sem consciência. Se a estátua resultante desta magia for quebrada ou danificada, a criatura (se voltar a seu estado original) sofrerá o dano e deformidades equivalentes. A criatura não está morta, mas também não parece viva quando é observada por magias como visão da morte. Somente as criaturas feitas de carne podem ser afetadas por esta magia.\nComponentes Materiais: Limo, água e pedra."
   },
   {
     "id": 93,
@@ -1198,8 +1158,7 @@
     "duration": "Um dia/nível (D)",
     "savingThrow": "Nenhum",
     "spellResistance": "Não",
-    "description": "Essa magia transforma um carvalho em um protetor ou guardião. A magia só pode ser conjurada em uma única árvore simultaneamente; enquanto carvalho vivo estiver ativa, é impossível conjurá-la novamente em outra árvore. O alvo deve estar a menos de 3 metros da residência do personagem ou a menos de 90 metros de algo que ele queira guardar ou proteger.\nA magia deve ser conjurada em um carvalho Enorme e saudável. Uma frase de gatilho de até uma palavra por nível é colocada sobre o carvalho. Por exemplo, “Ataque qualquer pessoa que chegue perto sem primeiro dizer ‘visco sagrado’” é uma frase gatilho de onze palavras que poderia ser usada por um personagem de 11° nível ou superior. A magia transforma a árvore em um ser animado como um ente (veja o Livro dos Monstros). Se o Mestre permitir, pode-se definir estatísticas inferiores quando carvalho vivo for conjurada sobre uma árvore menor.\nSe a magia carvalho vivo for dissipada, a árvore cria raízes onde estiver. Caso esteja livre, tentará voltar para sua localização original antes de enraizar-se.",
-    "imgPath": "img/transmutation.jpg"
+    "description": "Essa magia transforma um carvalho em um protetor ou guardião. A magia só pode ser conjurada em uma única árvore simultaneamente; enquanto carvalho vivo estiver ativa, é impossível conjurá-la novamente em outra árvore. O alvo deve estar a menos de 3 metros da residência do personagem ou a menos de 90 metros de algo que ele queira guardar ou proteger.\nA magia deve ser conjurada em um carvalho Enorme e saudável. Uma frase de gatilho de até uma palavra por nível é colocada sobre o carvalho. Por exemplo, “Ataque qualquer pessoa que chegue perto sem primeiro dizer ‘visco sagrado’” é uma frase gatilho de onze palavras que poderia ser usada por um personagem de 11° nível ou superior. A magia transforma a árvore em um ser animado como um ente (veja o Livro dos Monstros). Se o Mestre permitir, pode-se definir estatísticas inferiores quando carvalho vivo for conjurada sobre uma árvore menor.\nSe a magia carvalho vivo for dissipada, a árvore cria raízes onde estiver. Caso esteja livre, tentará voltar para sua localização original antes de enraizar-se."
   },
   {
     "id": 94,
@@ -1213,8 +1172,7 @@
     "duration": "Até 1 hora",
     "savingThrow": "Vontade anula (veja texto)",
     "spellResistance": "Sim",
-    "description": "Se o personagem tiver a atenção de um grupo de criaturas, poderá usar esta magia para mantê-las enfeitiçadas. Para conjurar a magia, é necessário falar ou cantar sem interrupção durante 1 rodada. Depois disso, todos os alvos afetados prestam atenção completa ao conjurador, ignorando tudo o que acontece ao seu redor. A atitude deles será considerada “amistosa” enquanto o efeito da magia permanecer ativo (veja o Livro do Mestre para obter informações sobre atitudes). Todas as criaturas de raças ou religiões inimigas recebem +4 de bônus nos seus testes de resistência.\nAs criaturas com 4 DV ou mais e/ou Sabedoria 16 ou superior mantém a consciência de seus arredores e sua atitude será indiferente. Elas recebem novos testes de resistência se perceberem ações contrárias às suas expectativas.\nO encantamento permanece ativo enquanto o personagem falar ou cantar, limitado a 1 hora. Todos os cativados não realizam nenhuma outra ação enquanto o conjurador falar ou cantar e debatem o assunto ou sua atuação durante 1d3 rodadas depois disso. Todas as criaturas que entrarem na área da magia sofrem seus efeitos, a menos que obtenham sucesso em seu teste de resistência. A magia termina (mas ainda continua durante 1d3 rodadas) se o conjurador perder a concentração ou realizar qualquer outra ação além de falar ou cantar.\nCaso as criaturas que não sejam afetadas pela magia tomarem atitudes pouco amigáveis ou hostis contra o conjurador, todos os alvos podem realizar um teste de Carisma coletivo para dissipar a magia. Este teste é realizado pelo personagem contra o Carisma mais elevado da audiência e os demais utilizam a ação Prestar Auxílio. A bagunça dissipa a magia se o conjurador perder esse teste resistido de Carisma. Somente um teste resistido é permitido por ativação desta magia.\nSe um membro da audiência for atacado (ou se tornar alvo de uma ação hostil), a magia termina e a audiência se torna imediatamente pouco amigável (ou hostil, para os membros da audiência com 4 DV ou mais ou Sabedoria 16 ou superior).", 
-    "imgPath": "img/enchantment.jpg"
+    "description": "Se o personagem tiver a atenção de um grupo de criaturas, poderá usar esta magia para mantê-las enfeitiçadas. Para conjurar a magia, é necessário falar ou cantar sem interrupção durante 1 rodada. Depois disso, todos os alvos afetados prestam atenção completa ao conjurador, ignorando tudo o que acontece ao seu redor. A atitude deles será considerada “amistosa” enquanto o efeito da magia permanecer ativo (veja o Livro do Mestre para obter informações sobre atitudes). Todas as criaturas de raças ou religiões inimigas recebem +4 de bônus nos seus testes de resistência.\nAs criaturas com 4 DV ou mais e/ou Sabedoria 16 ou superior mantém a consciência de seus arredores e sua atitude será indiferente. Elas recebem novos testes de resistência se perceberem ações contrárias às suas expectativas.\nO encantamento permanece ativo enquanto o personagem falar ou cantar, limitado a 1 hora. Todos os cativados não realizam nenhuma outra ação enquanto o conjurador falar ou cantar e debatem o assunto ou sua atuação durante 1d3 rodadas depois disso. Todas as criaturas que entrarem na área da magia sofrem seus efeitos, a menos que obtenham sucesso em seu teste de resistência. A magia termina (mas ainda continua durante 1d3 rodadas) se o conjurador perder a concentração ou realizar qualquer outra ação além de falar ou cantar.\nCaso as criaturas que não sejam afetadas pela magia tomarem atitudes pouco amigáveis ou hostis contra o conjurador, todos os alvos podem realizar um teste de Carisma coletivo para dissipar a magia. Este teste é realizado pelo personagem contra o Carisma mais elevado da audiência e os demais utilizam a ação Prestar Auxílio. A bagunça dissipa a magia se o conjurador perder esse teste resistido de Carisma. Somente um teste resistido é permitido por ativação desta magia.\nSe um membro da audiência for atacado (ou se tornar alvo de uma ação hostil), a magia termina e a audiência se torna imediatamente pouco amigável (ou hostil, para os membros da audiência com 4 DV ou mais ou Sabedoria 16 ou superior)."
   },
   {
     "id": 95,
@@ -1228,8 +1186,7 @@
     "duration": "1d4 rodadas ou 1 rodada (veja texto)",
     "savingThrow": "Vontade parcial",
     "spellResistance": "Sim",
-    "description": "A criatura afetada fica amedrontada. Caso o alvo obtenha sucesso no teste de resistência de Vontade, ficará apenas abalado durante uma rodada. As criaturas com 6 Dados de Vida ou mais são imunes aos efeitos dessa magia. Cansar medo serve de contramágica e dissipa remover medo.", 
-    "imgPath": "img/necromancy.jpg"
+    "description": "A criatura afetada fica amedrontada. Caso o alvo obtenha sucesso no teste de resistência de Vontade, ficará apenas abalado durante uma rodada. As criaturas com 6 Dados de Vida ou mais são imunes aos efeitos dessa magia. Cansar medo serve de contramágica e dissipa remover medo."
   },
   {
     "id": 96,
@@ -1243,8 +1200,7 @@
     "duration": "Permanente (D)",
     "savingThrow": "Fortitude anula",
     "spellResistance": "Sim",
-    "description": "O personagem utiliza o poder da necromancia para causar cegueira ou surdez (à critério do conjurador) na criatura selecionada.",
-    "imgPath": "img/necromancy.jpg"
+    "description": "O personagem utiliza o poder da necromancia para causar cegueira ou surdez (à critério do conjurador) na criatura selecionada."
   },
   {
     "id": 97,
@@ -1258,8 +1214,7 @@
     "duration": "1 minuto/nível (D)",
     "savingThrow": "Nenhum",
     "spellResistance": "Não",
-    "description": "Essa magia tranca magicamente uma porta, portão, janela ou persiana de madeira, metal ou pedra. A magia afeta o portal como se tivesse sido fechado e trancado normalmente. Uma magia arrombar ou um sucesso em dissipar magia elimina a magia cerrar portas. Adicione 5 pontos à Classe de Dificuldade para arrombar ou quebrar um portal afetado com essa magia.",
-    "imgPath": "img/abjuration.jpg"
+    "description": "Essa magia tranca magicamente uma porta, portão, janela ou persiana de madeira, metal ou pedra. A magia afeta o portal como se tivesse sido fechado e trancado normalmente. Uma magia arrombar ou um sucesso em dissipar magia elimina a magia cerrar portas. Adicione 5 pontos à Classe de Dificuldade para arrombar ou quebrar um portal afetado com essa magia."
   },
   {
     "id": 98,
@@ -1274,8 +1229,7 @@
     "duration": "Permanente",
     "savingThrow": "Nenhum",
     "spellResistance": "Não",
-    "description": "Uma chama, equivalente em brilho a uma tocha, surge no objeto tocado. O fogo se parece com uma chama normal, mas não gera calor e não usa oxigênio. A chama pode ser coberta e escondida, mas não pode ser apagada.\nAs magias de luz funcionam como contra-mágica e dissipam as magias de escuridão de mesmo nível ou inferior.\nComponente Material: Pó de rubi (valor de 50 PO) despejado no item que vai carregar a chama.",
-    "imgPath": "img/evocation.jpg"
+    "description": "Uma chama, equivalente em brilho a uma tocha, surge no objeto tocado. O fogo se parece com uma chama normal, mas não gera calor e não usa oxigênio. A chama pode ser coberta e escondida, mas não pode ser apagada.\nAs magias de luz funcionam como contra-mágica e dissipam as magias de escuridão de mesmo nível ou inferior.\nComponente Material: Pó de rubi (valor de 50 PO) despejado no item que vai carregar a chama."
   },
   {
     "id": 99,
@@ -1289,8 +1243,7 @@
     "duration": "Instantânea",
     "savingThrow": "Nenhum ou Reflexos para reduzir à metade; veja texto",
     "spellResistance": "Sim",
-    "description": "A chuva de meteoros é uma magia muito poderosa e espetacular, similar à bola de fogo em muitos aspectos. Quando é conjurada, quatro esferas de 60 cm de diâmetro são lançadas da palma da mão do personagem até o ponto de impacto escolhido. As esferas de meteoro deixam um rastro flamejante.\nSe uma esfera for disparada em uma criatura específica, o personagem deve realizar um ataque de toque à distância para acertar o alvo com o meteoro. Qualquer criatura acertada por uma dessas esferas sofre 2d6 pontos de dano de concussão (sem teste de resistência) e não poderá realizar o teste de resistência contra o dano de fogo da esfera (veja abaixo). Se a esfera não atingir o alvo, ela simplesmente explode na intersecção mais próximo do quadrado daquela criatura.\nQuando a esfera atinge seu destino, ele explode numa dispersão de 12 metros de raio, causando 6d6 pontos de dano de fogo a cada criatura na área. Se a criatura estiver na área de mais que uma esfera, ela deve realizar os testes de resistência separados contra cada uma. A resistência ao fogo se aplica ao dano de cada esfera individualmente.",
-    "imgPath": "img/evocation.jpg"
+    "description": "A chuva de meteoros é uma magia muito poderosa e espetacular, similar à bola de fogo em muitos aspectos. Quando é conjurada, quatro esferas de 60 cm de diâmetro são lançadas da palma da mão do personagem até o ponto de impacto escolhido. As esferas de meteoro deixam um rastro flamejante.\nSe uma esfera for disparada em uma criatura específica, o personagem deve realizar um ataque de toque à distância para acertar o alvo com o meteoro. Qualquer criatura acertada por uma dessas esferas sofre 2d6 pontos de dano de concussão (sem teste de resistência) e não poderá realizar o teste de resistência contra o dano de fogo da esfera (veja abaixo). Se a esfera não atingir o alvo, ela simplesmente explode na intersecção mais próximo do quadrado daquela criatura.\nQuando a esfera atinge seu destino, ele explode numa dispersão de 12 metros de raio, causando 6d6 pontos de dano de fogo a cada criatura na área. Se a criatura estiver na área de mais que uma esfera, ela deve realizar os testes de resistência separados contra cada uma. A resistência ao fogo se aplica ao dano de cada esfera individualmente."
   },
   {
     "id": 100,
@@ -1304,11 +1257,38 @@
     "duration": "1 rodada/nível (D)",
     "savingThrow": "Reflexos anula; veja texto",
     "spellResistance": "Sim",
-    "description": "Essa magia cria um poderoso ciclone de ventos muito rápidos, que se move através do ar, sobre a terra ou água com deslocamento de 18 metros por rodada. O personagem é capaz de se concentrar para controlar cada movimento do ciclone ou especificar uma rota simples, como se mover para a frente, movimentar-se em ziguezague, círculos, etc. Direcionar ou alterar o movimento programado do ciclone exige uma ação padrão. O ciclone sempre se desloca durante o turno do conjurador. Se o ciclone sair do alcance da magia, se deslocará aleatoriamente durante 1d3 rodadas – possivelmente ameaçando o personagem e seus aliados – e então se dissipará. O personagem não consegue recuperar o controle, mesmo se ele voltar a entrar na área de alcance da magia.\nQualquer criatura Grande ou menor que entre em contato com o ciclone precisa obter sucesso num teste de resistência de Reflexos ou sofrerá 3d6 pontos de dano. As criaturas Médias ou menores que fracassem em seu primeiro teste precisam realizar um segundo para evitar serem sugadas pelo ciclone e ficarem suspensas por ventos poderosos, sofrendo 1d8 pontos de dano por rodada sem direito a outro teste de resistência. O conjurador pode forçar o ciclone a expelir qualquer criatura sempre que desejar, jogando-a onde o ciclone estiver no momento.",
-    "imgPath": "img/evocation.jpg"
+    "description": "Essa magia cria um poderoso ciclone de ventos muito rápidos, que se move através do ar, sobre a terra ou água com deslocamento de 18 metros por rodada. O personagem é capaz de se concentrar para controlar cada movimento do ciclone ou especificar uma rota simples, como se mover para a frente, movimentar-se em ziguezague, círculos, etc. Direcionar ou alterar o movimento programado do ciclone exige uma ação padrão. O ciclone sempre se desloca durante o turno do conjurador. Se o ciclone sair do alcance da magia, se deslocará aleatoriamente durante 1d3 rodadas – possivelmente ameaçando o personagem e seus aliados – e então se dissipará. O personagem não consegue recuperar o controle, mesmo se ele voltar a entrar na área de alcance da magia.\nQualquer criatura Grande ou menor que entre em contato com o ciclone precisa obter sucesso num teste de resistência de Reflexos ou sofrerá 3d6 pontos de dano. As criaturas Médias ou menores que fracassem em seu primeiro teste precisam realizar um segundo para evitar serem sugadas pelo ciclone e ficarem suspensas por ventos poderosos, sofrendo 1d8 pontos de dano por rodada sem direito a outro teste de resistência. O conjurador pode forçar o ciclone a expelir qualquer criatura sempre que desejar, jogando-a onde o ciclone estiver no momento."
+  },
+  {
+    "id": 101,
+    "magicName": "Círculo Mágico contra o Bem",
+    "school": "Abjuração [Mal]",
+    "magicLevel": "Clr 3, Mal 3, Pal 3, Fet/Mag 3",
+    "description": "Essa magia funciona como círculo mágico contra o mal, mas é similar a proteção contra o caos em vez de proteção contra o mal e pode aprisionar uma criatura que não seja maligna."
+  },
+  {
+    "id": 102,
+    "magicName": "Círculo Mágico contra o Caos",
+    "school": "Abjuração [Ordem]",
+    "magicLevel": "Clr 3, Ordem 3, Pal 3, Fet/Mag 3",
+    "description": "Essa magia funciona como círculo mágico contra o mal, mas é similar a proteção contra o caos em vez de proteção contra o mal e pode aprisionar uma criatura que não seja Leal."
+  },
+  {
+    "id": 103,
+    "magicName": "Círculo Mágico Contra o Mal",
+    "school": "Abjuração [Bem]",
+    "magicLevel": "Clr 3, Bem 3, Pal 3, Fet/Mag 3",
+    "components": "V, G, M/FD",
+    "executionTime": "1 ação padrão",
+    "magicRange": "Toque",
+    "area": "Emanação de 3 metros de raio, centrada na criatura tocada",
+    "duration": "10 minutos/nível",
+    "savingThrow": "Vontade anula (inofensiva)",
+    "spellResistance": "Não; veja texto",
+    "description": "Todas as criaturas dentro da área recebem os efeitos da magia proteção contra o mal e nenhuma criatura que não seja Boa é capaz de invadir essa área. É preciso superar a Resistência a Magia da criatura para isolá-la (como a terceira função de proteção contra o mal), mas os bônus de deflexão, a resistência e a proteção ao controle mental são aplicados, independentes da RM do inimigo.\nEssa magia tem uma versão alternativa que o conjurador deve escolher ao conjurá-la. Um círculo mágico contra o mal pode ser voltado para o interior em vez de para o exterior. Nesse caso, a magia aprisiona uma criatura convocada (pelas magias âncora planar menor, âncora planar e âncora planar maior, por exemplo), que não seja Boa, durante 24 horas por nível de conjurador, supondo que a magia de convocação seja executada dentro de 1 rodada da conjuração do círculo mágico. A criatura é incapaz de atravessar o círculo que a aprisiona.\nSe a criatura for muito grande para ser comportada na área da magia, o efeito agirá como uma proteção contra o mal somente contra a criatura convocada.\nUm círculo mágico é ineficaz como uma armadilha. Se o círculo de pó de prata for removido no processo, a conjuração é neutralizada, o efeito termina imediatamente. A criatura presa não pode fazer nada contra o círculo, direta ou indiretamente, mas outras criaturas podem. Se a criatura convocada tiver Resistência a Magia, ela pode tentar neutralizar a armadilha uma vez por dia. Se o personagem fracassar no teste de conjurador, a criatura estará livre e destruirá o círculo.\nUma criatura capaz de qualquer forma de viagem dimensional (projeção astral, piscar, porta dimensional, forma etérea, portal, viagem planar, andar nas sombras, teletransporte ou habilidades similares) simplesmente sairá do círculo usando essa habilidade. O personagem é capaz de impedir a fuga extra-dimensional da criatura conjurando uma magia âncora dimensional nela, mas deve fazê-lo antes da criatura agir. Se obtiver sucesso, a âncora permanece ativa enquanto o círculo mágico existir. A criatura não consegue atravessar o círculo mágico, mas seus ataques à distância (armas de ataque à distância, magias, habilidades mágicas, etc.) conseguem. A criatura pode atacar qualquer alvo que alcançar com seus ataques à distância, exceto o próprio círculo.\nO personagem pode adicionar um diagrama especial (uma figura de confinamento bidimensional sem lacunas ao longo da circunferência, acrescida de vários selos mágicos) para tornar o círculo mágico mais seguro. Desenhar o diagrama exige 10 minutos e um teste de identificar Magia (CD 20). O Mestre realiza o teste secretamente. Se o teste fracassar, o diagrama será ineficaz. Pode-se escolher 10 para elaborar o diagrama, caso o personagem não esteja sob nenhum tipo de pressão devido ao tempo para completar a tarefa. Nesse caso, o processo também gastará 10 minutos. Se o tempo não é um fator importante, o personagem pode escolher 20, mas perderá 3 horas e 20 minutos para concluir a tarefa.\nSe obtiver sucesso no diagrama, o personagem será capaz de conjurar a magia âncora dimensional no círculo mágico uma rodada antes de qualquer magia de convocação. A âncora aprisionará qualquer criatura convocada no círculo mágico durante 24 horas por nível de conjurador. Uma criatura não pode usar sua RM contra um círculo mágico preparado com um diagrama e nenhuma de suas habilidades ou ataques são capazes de atravessar o diagrama. Se a criatura realizar um teste de Carisma para se libertar da armadilha (veja a magia âncora planar menor), a CD aumenta em 5 pontos. A criatura é imediatamente liberada se algo destruir o diagrama – mesmo uma folha seca que caia sobre os desenhos. No entanto, a criatura não consegue prejudicar o diagrama sozinha, direta ou indiretamente, conforme descrito acima.\nOs efeitos dessa magia não se acumulam com proteção contra o mal e vice-versa.\nComponente Material Arcano: Um pouco de pó de prata, que o personagem utiliza para desenhar um círculo de 90 cm de diâmetro no chão ao redor da criatura a ser aprisionada ou protegida."
   }
-  ]
-
+]
+  
 
 
 
